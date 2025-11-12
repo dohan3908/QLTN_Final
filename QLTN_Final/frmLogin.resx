@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Screenshot_2025-11-05_204432-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot_2025-11-05_204432-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="abstract-light-blue-curve-background-blue-beauty-dynamic-wallpaper-with-wave-shapes-suitable-for-business-selling-banners-ads-events-templates-pages-webs-and-others-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\abstract-light-blue-curve-background-blue-beauty-dynamic-wallpaper-with-wave-shapes-suitable-for-business-selling-banners-ads-events-templates-pages-webs-and-others-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BeautyPlus-Image-Enhancer-1762350716537" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BeautyPlus-Image-Enhancer-1762350716537.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="man" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\man.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngtree-open-book-on-wooden-desk-with-pages-turning-into-magical-glowing-picture-image_15891238" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-open-book-on-wooden-desk-with-pages-turning-into-magical-glowing-picture-image_15891238.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shutterstock_1847661151.jpg.optimal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shutterstock_1847661151.jpg.optimal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hhihi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hhihi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
