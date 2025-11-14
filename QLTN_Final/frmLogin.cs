@@ -66,7 +66,7 @@ namespace QLTN_Final
                     }
                     else if (rdoGiangVien.Checked)
                     {
-                        frmGV f = new frmGV();
+                        FrmGV f = new FrmGV();
                         f.Show();
                     }
                     else if (rdoSinhVien.Checked)

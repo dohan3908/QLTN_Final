@@ -96,7 +96,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label4.Location = new System.Drawing.Point(146, 14);
+            this.label4.Location = new System.Drawing.Point(147, 14);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(330, 39);
             this.label4.TabIndex = 6;
