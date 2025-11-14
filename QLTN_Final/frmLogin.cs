@@ -61,12 +61,12 @@ namespace QLTN_Final
 
                     if (rdoAdmin.Checked)
                     {
-                        frmMainAdmin f = new frmMainAdmin();
+                        frmAdmin f = new frmAdmin();
                         f.Show();
                     }
                     else if (rdoGiangVien.Checked)
                     {
-                        frmMainGV f = new frmMainGV();
+                        frmGV f = new frmGV();
                         f.Show();
                     }
                     else if (rdoSinhVien.Checked)

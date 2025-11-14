@@ -67,18 +67,6 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMainAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMainAdmin.Designer.cs">
-      <DependentUpon>frmMainAdmin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMainGV.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMainGV.Designer.cs">
-      <DependentUpon>frmMainGV.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmNhanDeThi.cs">
       <SubType>Form</SubType>
     </Compile>
