@@ -33,8 +33,31 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Charts.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Drawing.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v24.1.Export, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v24.1.UI, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v24.1.Extensions, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,14 +69,81 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCauhoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCauhoi.Designer.cs">
+      <DependentUpon>FrmCauhoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDiemthi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDiemthi.Designer.cs">
+      <DependentUpon>FrmDiemthi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGV.Designer.cs">
+      <DependentUpon>FrmGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHocphan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHocphan.Designer.cs">
+      <DependentUpon>FrmHocphan.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmNhapcauhoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNhapcauhoi.Designer.cs">
+      <DependentUpon>FrmNhapcauhoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTTTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTTTK.Designer.cs">
+      <DependentUpon>FrmTTTK.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rptDSCH.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDSCH.Designer.cs">
+      <DependentUpon>rptDSCH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptDSDT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDSDT.Designer.cs">
+      <DependentUpon>rptDSDT.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmCauhoi.resx">
+      <DependentUpon>FrmCauhoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDiemthi.resx">
+      <DependentUpon>FrmDiemthi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGV.resx">
+      <DependentUpon>FrmGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHocphan.resx">
+      <DependentUpon>FrmHocphan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNhapcauhoi.resx">
+      <DependentUpon>FrmNhapcauhoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTTTK.resx">
+      <DependentUpon>FrmTTTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +153,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="rptDSCH.resx">
+      <DependentUpon>rptDSCH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDSDT.resx">
+      <DependentUpon>rptDSDT.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
