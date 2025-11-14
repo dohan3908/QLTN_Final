@@ -274,7 +274,7 @@ namespace QLTN_Final
 
         private void FrmCauhoi_Load(object sender, EventArgs e)
         {
-            str = "Data Source=DESKTOP-MTLSMU4\\MSSQLSERVER2;Initial Catalog=qltn_final2;Integrated Security=True;Encrypt=False";
+            str = @"Data Source=DESKTOP-16RTLLC\HPELITEBOOK840G5;Initial Catalog=QLTN;Integrated Security=True;Encrypt=False";
             conn.ConnectionString = str;
             conn.Open();
             // Đổ dữ liệu vào DataGridView
@@ -289,6 +289,11 @@ namespace QLTN_Final
 
         private void btnInbaocao_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void btnInbaocao_Click_1(object sender, EventArgs e)
+        {
             rptDSCH rpt = new rptDSCH();
             string sql = "SELECT ct.MaCauHoi, ct.MaHP, hp.TenHP, ct.MaGV, gv.TenGV, " +
               "ct.NoiDung, ct.DapAnA, ct.DapAnB, ct.DapAnC, ct.DapAnD, " +
@@ -298,13 +303,13 @@ namespace QLTN_Final
               "JOIN GiangVien gv ON ct.MaGV = gv.MaGV " +
               "WHERE ct." + comTruong.Text + " = N'" + comGT.SelectedValue.ToString() + "'";
             da = new SqlDataAdapter(sql, conn);
-                 DataTable rdt = new DataTable();
-                 da.Fill(rdt);
+            DataTable rdt = new DataTable();
+            da.Fill(rdt);
             rpt.lblDkloc.Text = "Điều kiện lọc: " + comGT.Text;
             rpt.rptNgayin.Text = string.Format("Hà Nội, ngày {0} tháng {1} năm {2}",
                 DateTime.Now.Day, DateTime.Now.Month, DateTime.Now.Year);
-                 rpt.DataSource = rdt;
-                rpt.ShowPreview();
+            rpt.DataSource = rdt;
+            rpt.ShowPreview();
         }
 
         private void FrmGV_KeyPress(object sender, KeyPressEventArgs e)

@@ -93,5 +93,10 @@ namespace QLTN_Final
             this.Hide();
             f.ShowDialog();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

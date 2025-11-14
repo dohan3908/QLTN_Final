@@ -63,15 +63,17 @@
             this.menuStrip1.AccessibleRole = System.Windows.Forms.AccessibleRole.OutlineButton;
             this.menuStrip1.BackColor = System.Drawing.Color.White;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold);
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hỆTHỐNGToolStripMenuItem,
             this.hỌCPHẦNToolStripMenuItem,
             this.cÂUHỎIToolStripMenuItem,
             this.bÁOCÁOToolStripMenuItem1});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 70);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 88);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 41);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(900, 48);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.UseWaitCursor = true;
             // 
@@ -86,32 +88,32 @@
             this.hỆTHỐNGToolStripMenuItem.ForeColor = System.Drawing.Color.SteelBlue;
             this.hỆTHỐNGToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("hỆTHỐNGToolStripMenuItem.Image")));
             this.hỆTHỐNGToolStripMenuItem.Name = "hỆTHỐNGToolStripMenuItem";
-            this.hỆTHỐNGToolStripMenuItem.Size = new System.Drawing.Size(202, 37);
+            this.hỆTHỐNGToolStripMenuItem.Size = new System.Drawing.Size(237, 44);
             this.hỆTHỐNGToolStripMenuItem.Text = "HỆ THỐNG ";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(347, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(402, 6);
             // 
             // thôngTinTàiKhoảnToolStripMenuItem
             // 
             this.thôngTinTàiKhoảnToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("thôngTinTàiKhoảnToolStripMenuItem.Image")));
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(350, 36);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(405, 46);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản ";
             this.thôngTinTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.thôngTinTàiKhoảnToolStripMenuItem_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(347, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(402, 6);
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngXuấtToolStripMenuItem.Image")));
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(350, 36);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(405, 46);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
@@ -121,7 +123,7 @@
             this.hỌCPHẦNToolStripMenuItem.ForeColor = System.Drawing.Color.SteelBlue;
             this.hỌCPHẦNToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("hỌCPHẦNToolStripMenuItem.Image")));
             this.hỌCPHẦNToolStripMenuItem.Name = "hỌCPHẦNToolStripMenuItem";
-            this.hỌCPHẦNToolStripMenuItem.Size = new System.Drawing.Size(185, 37);
+            this.hỌCPHẦNToolStripMenuItem.Size = new System.Drawing.Size(215, 44);
             this.hỌCPHẦNToolStripMenuItem.Text = "HỌC PHẦN ";
             this.hỌCPHẦNToolStripMenuItem.Click += new System.EventHandler(this.hỌCPHẦNToolStripMenuItem_Click);
             // 
@@ -135,21 +137,21 @@
             this.cÂUHỎIToolStripMenuItem.ForeColor = System.Drawing.Color.SteelBlue;
             this.cÂUHỎIToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cÂUHỎIToolStripMenuItem.Image")));
             this.cÂUHỎIToolStripMenuItem.Name = "cÂUHỎIToolStripMenuItem";
-            this.cÂUHỎIToolStripMenuItem.Size = new System.Drawing.Size(173, 37);
+            this.cÂUHỎIToolStripMenuItem.Size = new System.Drawing.Size(200, 44);
             this.cÂUHỎIToolStripMenuItem.Text = "CÂU HỎI ";
             this.cÂUHỎIToolStripMenuItem.Click += new System.EventHandler(this.cÂUHỎIToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(341, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(397, 6);
             // 
             // danhSáchCâuHỏiToolStripMenuItem
             // 
             this.danhSáchCâuHỏiToolStripMenuItem.ForeColor = System.Drawing.Color.SteelBlue;
             this.danhSáchCâuHỏiToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("danhSáchCâuHỏiToolStripMenuItem.Image")));
             this.danhSáchCâuHỏiToolStripMenuItem.Name = "danhSáchCâuHỏiToolStripMenuItem";
-            this.danhSáchCâuHỏiToolStripMenuItem.Size = new System.Drawing.Size(344, 36);
+            this.danhSáchCâuHỏiToolStripMenuItem.Size = new System.Drawing.Size(400, 46);
             this.danhSáchCâuHỏiToolStripMenuItem.Text = "Danh sách câu hỏi ";
             this.danhSáchCâuHỏiToolStripMenuItem.Click += new System.EventHandler(this.danhSáchCâuHỏiToolStripMenuItem_Click);
             // 
@@ -158,7 +160,7 @@
             this.thêmCâuHỏiToolStripMenuItem.ForeColor = System.Drawing.Color.SteelBlue;
             this.thêmCâuHỏiToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("thêmCâuHỏiToolStripMenuItem.Image")));
             this.thêmCâuHỏiToolStripMenuItem.Name = "thêmCâuHỏiToolStripMenuItem";
-            this.thêmCâuHỏiToolStripMenuItem.Size = new System.Drawing.Size(344, 36);
+            this.thêmCâuHỏiToolStripMenuItem.Size = new System.Drawing.Size(400, 46);
             this.thêmCâuHỏiToolStripMenuItem.Text = "Thêm câu hỏi ";
             this.thêmCâuHỏiToolStripMenuItem.Click += new System.EventHandler(this.thêmCâuHỏiToolStripMenuItem_Click);
             // 
@@ -168,7 +170,7 @@
             this.bÁOCÁOToolStripMenuItem1.ForeColor = System.Drawing.Color.SteelBlue;
             this.bÁOCÁOToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("bÁOCÁOToolStripMenuItem1.Image")));
             this.bÁOCÁOToolStripMenuItem1.Name = "bÁOCÁOToolStripMenuItem1";
-            this.bÁOCÁOToolStripMenuItem1.Size = new System.Drawing.Size(169, 37);
+            this.bÁOCÁOToolStripMenuItem1.Size = new System.Drawing.Size(197, 44);
             this.bÁOCÁOToolStripMenuItem1.Text = "ĐIỂM THI";
             this.bÁOCÁOToolStripMenuItem1.Click += new System.EventHandler(this.bÁOCÁOToolStripMenuItem1_Click);
             // 
@@ -186,12 +188,14 @@
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.InitialImage")));
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(800, 450);
+            this.pictureBox3.Size = new System.Drawing.Size(900, 562);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.UseWaitCursor = true;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // statusStrip1
             // 
@@ -201,9 +205,10 @@
             this.toolStripStatusLabel1,
             this.toolStripProgressBar1,
             this.toolStripStatusLabel2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 424);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 530);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 26);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(900, 32);
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.UseWaitCursor = true;
@@ -212,21 +217,21 @@
             // 
             this.toolStripStatusLabel1.ForeColor = System.Drawing.SystemColors.InactiveBorder;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(54, 20);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(65, 25);
             this.toolStripStatusLabel1.Text = "Ready!";
             // 
             // toolStripProgressBar1
             // 
             this.toolStripProgressBar1.ForeColor = System.Drawing.Color.SteelBlue;
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 18);
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(112, 24);
             this.toolStripProgressBar1.Click += new System.EventHandler(this.toolStripProgressBar1_Click);
             // 
             // toolStripStatusLabel2
             // 
             this.toolStripStatusLabel2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(42, 20);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(50, 25);
             this.toolStripStatusLabel2.Text = "Time";
             // 
             // timer1
@@ -238,8 +243,9 @@
             this.pictureBox1.BackColor = System.Drawing.Color.SteelBlue;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(800, 70);
+            this.pictureBox1.Size = new System.Drawing.Size(900, 88);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.UseWaitCursor = true;
@@ -249,8 +255,9 @@
             this.pictureBox2.BackColor = System.Drawing.Color.SteelBlue;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(189, 67);
+            this.pictureBox2.Size = new System.Drawing.Size(213, 84);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -259,9 +266,9 @@
             // 
             // FrmGV
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -270,6 +277,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FrmGV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmGV";

@@ -17,7 +17,7 @@ namespace QLTN_Final
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
       
-            Application.Run(new FrmGV());
+            Application.Run(new frmLogin());
         }
     }
 }

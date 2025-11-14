@@ -166,7 +166,7 @@ namespace QLTN_Final
         {
 
             // Thiết lập kết nối
-            str = "Data Source=DESKTOP-MTLSMU4\\MSSQLSERVER2;Initial Catalog=qltn_final2;Integrated Security=True;Encrypt=False";
+            str = @"Data Source=DESKTOP-16RTLLC\HPELITEBOOK840G5;Initial Catalog=QLTN;Integrated Security=True;Encrypt=False";
             conn.ConnectionString = str;
             conn.Open();
             // Đổ dữ liệu vào DataGridView từ bảng HocPhan

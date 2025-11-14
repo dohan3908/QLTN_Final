@@ -137,9 +137,9 @@ namespace QLTN_Final
 
         private void FrmNhapcauhoi_Load(object sender, EventArgs e)
         {
-            str = "Data Source=DESKTOP-MTLSMU4\\MSSQLSERVER2;Initial Catalog=qltn_final2;Integrated Security=True;Encrypt=False";
-            conn.ConnectionString = str;
+            conn.ConnectionString = @"Data Source=DESKTOP-16RTLLC\HPELITEBOOK840G5;Initial Catalog=QLTN;Integrated Security=True;Encrypt=False";
             conn.Open();
+
             string sql = "SELECT MaHP, TenHP FROM HocPhan";
             SqlDataAdapter da = new SqlDataAdapter(sql, conn);
             DataTable dt = new DataTable();

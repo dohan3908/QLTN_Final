@@ -209,7 +209,7 @@ namespace QLTN_Final
 
         private void FrmDiemthi_Load(object sender, EventArgs e)
         {
-            str = "Data Source=DESKTOP-MTLSMU4\\MSSQLSERVER2;Initial Catalog=qltn_final;Integrated Security=True;Encrypt=False";
+            str = @"Data Source=DESKTOP-16RTLLC\HPELITEBOOK840G5;Initial Catalog=QLTN;Integrated Security=True;Encrypt=False";
             conn.ConnectionString = str;
             conn.Open();
             sql = @"

@@ -58,13 +58,12 @@ namespace QLTN_Final
                 if (dt.Rows.Count > 0)
                 {
                     this.Hide();
-
-                    if (rdoAdmin.Checked)
+                    /*if (rdoAdmin.Checked)
                     {
                         frmAdmin f = new frmAdmin();
                         f.Show();
                     }
-                    else if (rdoGiangVien.Checked)
+                    else */ if (rdoGiangVien.Checked)
                     {
                         FrmGV f = new FrmGV();
                         f.Show();
